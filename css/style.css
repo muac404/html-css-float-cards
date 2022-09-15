@@ -1,0 +1,30 @@
+/* RESET */
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+.container{
+    width: 1000px;
+    background-color: azure;
+    margin: auto;
+}
+
+/* TYPOGRAPHY */
+
+body{
+    font-family: 'Fredoka', sans-serif;
+}
+
+/* OTHER */
+
+h1{
+    text-align: center;
+    color:#E53170;
+}
+
+p{
+    text-align: center;
+}
