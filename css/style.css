@@ -8,7 +8,7 @@ body{
 /* COMMON */
 .container{
     width: 1000px;
-    background-color: azure;
+    
     margin: auto;
 }
 
@@ -62,11 +62,9 @@ img{
     float: left;
     height: 100px;
 }
-/* .avatar{
-    height: 100px;
-} */
 
 .mail{
     color: lightblue;
     text-decoration: none;
 }
+
