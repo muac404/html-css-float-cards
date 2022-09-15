@@ -12,6 +12,12 @@ body{
     margin: auto;
 }
 
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 /* TYPOGRAPHY */
 
 body{
@@ -29,7 +35,38 @@ p{
     text-align: center;
 }
 
+h4{
+    margin-top: 0;
+    margin-bottom: 0px;
+    
+}
+
 .colonna-team{
-    width: calc(33,33%-30px);
-    background-color: #E53170;
+    width: calc(33.33% - 15px);
+    background-color:black;
+    float: left;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.team-text{
+    float: left;
+    color: white;
+    line-height: 30px;
+    padding-left: 15px;
+    padding-top: 5px;
+    vertical-align: middle;
+}
+
+img{
+    float: left;
+    height: 100px;
+}
+/* .avatar{
+    height: 100px;
+} */
+
+.mail{
+    color: lightblue;
+    text-decoration: none;
 }
