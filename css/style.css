@@ -61,7 +61,7 @@ h4{
 
 img{
     float: left;
-    height: 100px;
+    max-width: 100px;
 }
 
 .mail{
