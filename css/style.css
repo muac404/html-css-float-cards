@@ -28,3 +28,8 @@ h1{
 p{
     text-align: center;
 }
+
+.colonna-team{
+    width: calc(33,33%-30px);
+    background-color: #E53170;
+}
